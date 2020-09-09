@@ -24,7 +24,7 @@ namespace MobileStore.API.Controllers
             _mapper = mapper;
         }
         [HttpGet]
-        public async Task<ActionResult<IEnumerable<MobilePhone>>> GetPhones()
+        public async Task<ActionResult<IEnumerable<MobilePhoneResource>>> GetPhones()
         {
             var result =  await _repository.GetMobilePhones();
 
@@ -32,12 +32,13 @@ namespace MobileStore.API.Controllers
             {
                 return NotFound();
             }
-            return Ok(new { result });
 
+            var mapped = _mapper.Map<IEnumerable<MobilePhoneResource>>(result);
+            return Ok(new { mapped });
         }
 
         [HttpGet("{mobileId}")]
-        public async Task<IActionResult> GetPhone(int mobileId)
+        public async Task<ActionResult<MobilePhoneResource>> GetPhone(int mobileId)
         {
             var mobile = await _repository.GetMobileAsync(mobileId);
 
@@ -45,7 +46,9 @@ namespace MobileStore.API.Controllers
             {
                 return NotFound();
             }
-            return Ok(new { mobile });
+
+            var mapped = _mapper.Map<MobilePhoneResource>(mobile);
+            return Ok(new { mapped });
         }
 
         [HttpGet("search")]
@@ -58,9 +61,9 @@ namespace MobileStore.API.Controllers
                 return NotFound();
             }
 
-            var mappedResult = _mapper.Map<IEnumerable<MobilePhone>, IEnumerable<MobilePhoneResource>>(result);
+            var mapped = _mapper.Map<IEnumerable<MobilePhoneResource>>(result);
 
-            return Ok(new { mappedResult });
+            return Ok(new { mapped });
         }
     }
 }

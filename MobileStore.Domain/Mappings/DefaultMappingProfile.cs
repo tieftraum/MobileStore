@@ -12,10 +12,12 @@ namespace MobileStore.Domain.Mappings
         public DefaultMappingProfile()
         {
             // API resources to Domain and vice versa
-            CreateMap<MobilePhoneResource, MobilePhone>();
+            CreateMap<MobilePhoneResource, MobilePhone>().ReverseMap();
 
-            //Domainto  API resources  
-            CreateMap<MobilePhone, MobilePhoneResource>();
+            //.formember(c => c.cpuname, c => c.mapfrom(o => o.cpu.cpuname))
+            //.formember(c => c.manufacturername, c => c.mapfrom(o => o.manufacturer.name))
+            //.formember(c => c.operatingsystemname, c => c.mapfrom(o => o.operatingsystem.operatingsystemname));
+
         }
     }
 }

@@ -14,8 +14,13 @@ namespace MobileStore.Domain.Resources
         public string Memory { get; set; }
         public string PicturesAndVideosUrlOrPath { get; set; }
         public decimal Price { get; set; }
-        public string CPUName { get; set; }
-        public string OperatingSystemName { get; set; }
-        public string ManufacturerName { get; set; }
+        public int CPUId { get; set; }
+        public int ManufacturerId { get; set; }
+        public int MyOperatingSystemId { get; set; }
+
+
+        //public string CPUName { get; set; }
+        //public string OperatingSystemName { get; set; }
+        //public string ManufacturerName { get; set; }
     }
 }

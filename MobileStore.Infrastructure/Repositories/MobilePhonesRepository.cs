@@ -36,9 +36,19 @@ namespace MobileStore.Infrastructure.Repositories
                                 && (mp.Price >= resource.PriceFrom)
                                 && ((resource.PriceTo != 0 && mp.Price <= resource.PriceTo) || resource.PriceTo == 0)
                                 )
-                          select new MobilePhone { Name = mp.Name, Price = mp.Price , Manufacturer = mp.Manufacturer, 
-                          Memory = mp.Memory, PicturesAndVideosUrlOrPath = mp.PicturesAndVideosUrlOrPath, ScreenSizeAndResolution = mp.ScreenSizeAndResolution, Size = mp.Size, Weight = mp.Weight , CPU =  mp.CPU, OperatingSystem = mp.OperatingSystem
-                           });
+                          select new MobilePhone
+                          {
+                              Name = mp.Name,
+                              Price = mp.Price,
+                              ManufacturerId = mp.Manufacturer.ManufacturerId,
+                              Memory = mp.Memory,
+                              PicturesAndVideosUrlOrPath = mp.PicturesAndVideosUrlOrPath,
+                              ScreenSizeAndResolution = mp.ScreenSizeAndResolution,
+                              Size = mp.Size,
+                              Weight = mp.Weight,
+                              CPUId = mp.CPU.CPUId,
+                              MyOperatingSystemId = mp.OperatingSystem.MyOperatingSystemId
+                          });
 
             return await result.ToListAsync();
         }
