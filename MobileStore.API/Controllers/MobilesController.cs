@@ -28,9 +28,9 @@ namespace MobileStore.API.Controllers
         {
             var result =  await _repository.GetMobilePhones();
 
-            if (result == null)
+            if (result.Count() == 0)
             {
-                return NotFound();
+                return NotFound("No Phones Found");
             }
 
             var mapped = _mapper.Map<IEnumerable<MobilePhoneResource>>(result);
@@ -44,7 +44,7 @@ namespace MobileStore.API.Controllers
 
             if (mobile==null)
             {
-                return NotFound();
+                return NotFound("No Phone Found");
             }
 
             var mapped = _mapper.Map<MobilePhoneResource>(mobile);
@@ -56,14 +56,37 @@ namespace MobileStore.API.Controllers
         {
             var result = await _repository.GetMobilePhonesFromSearchFilter(resource);
 
-            if (result == null)
+            if (result.Count() == 0)
             {
-                return NotFound();
+                return NotFound("No Phones Found");
             }
 
             var mapped = _mapper.Map<IEnumerable<MobilePhoneResource>>(result);
 
             return Ok(new { mapped });
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> AddMobile([FromBody] MobilePhoneResource resource)
+        {
+            if (resource==null)
+            {
+                return BadRequest("Specified resource is empty");
+            }
+
+            if (!ModelState.IsValid)
+            {
+                return BadRequest($"{resource.Name} is required");
+            }
+            
+            var mobile = _mapper.Map<MobilePhone>(resource);
+            mobile = _repository.AddMobilePhone(mobile);
+
+            var resourceFromDb = _mapper.Map<MobilePhoneResource>(mobile);
+
+            _unitOfWork.Complete();
+
+            return CreatedAtAction("AddMobile", resourceFromDb);
         }
     }
 }

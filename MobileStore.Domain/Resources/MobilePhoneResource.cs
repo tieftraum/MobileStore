@@ -1,12 +1,14 @@
 ﻿using MobileStore.Domain.Models;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace MobileStore.Domain.Resources
 {
     public class MobilePhoneResource
     {
+        [Required]
         public string Name { get; set; }
         public string Size { get; set; }
         public string Weight { get; set; }

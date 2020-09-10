@@ -5713,35 +5713,38 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Aron\\.nuget\\packages\\": {}
+    "C:\\Users\\Nodar\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Aron\\Desktop\\MobileStore\\MobileStore.Infrastructure\\MobileStore.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\Nodar\\Desktop\\Files\\Projects\\MobileStore\\MobileStore.Infrastructure\\MobileStore.Infrastructure.csproj",
       "projectName": "MobileStore.Infrastructure",
-      "projectPath": "C:\\Users\\Aron\\Desktop\\MobileStore\\MobileStore.Infrastructure\\MobileStore.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\Aron\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Aron\\Desktop\\MobileStore\\MobileStore.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\Nodar\\Desktop\\Files\\Projects\\MobileStore\\MobileStore.Infrastructure\\MobileStore.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\Nodar\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Nodar\\Desktop\\Files\\Projects\\MobileStore\\MobileStore.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
+      ],
       "configFilePaths": [
-        "C:\\Users\\Aron\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 20.1.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "C:\\Users\\Nodar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\DevExpress 20.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Aron\\Desktop\\MobileStore\\MobileStore.Domain\\MobileStore.Domain.csproj": {
-              "projectPath": "C:\\Users\\Aron\\Desktop\\MobileStore\\MobileStore.Domain\\MobileStore.Domain.csproj"
+            "C:\\Users\\Nodar\\Desktop\\Files\\Projects\\MobileStore\\MobileStore.Domain\\MobileStore.Domain.csproj": {
+              "projectPath": "C:\\Users\\Nodar\\Desktop\\Files\\Projects\\MobileStore\\MobileStore.Domain\\MobileStore.Domain.csproj"
             }
           }
         }
@@ -5779,7 +5782,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -16,6 +16,12 @@ namespace MobileStore.Infrastructure.Repositories
         {
             _context = context;
         }
+
+        public MobilePhone AddMobilePhone(MobilePhone mobile)
+        {
+            return _context.Add(mobile).Entity;
+        }
+
         public async Task<MobilePhone> GetMobileAsync(int id)
         {
             var mobilePhone = await _context.MobilePhones.FirstOrDefaultAsync(e => e.MobilePhoneId == id);
@@ -40,14 +46,14 @@ namespace MobileStore.Infrastructure.Repositories
                           {
                               Name = mp.Name,
                               Price = mp.Price,
-                              ManufacturerId = mp.Manufacturer.ManufacturerId,
                               Memory = mp.Memory,
                               PicturesAndVideosUrlOrPath = mp.PicturesAndVideosUrlOrPath,
                               ScreenSizeAndResolution = mp.ScreenSizeAndResolution,
                               Size = mp.Size,
                               Weight = mp.Weight,
                               CPUId = mp.CPU.CPUId,
-                              MyOperatingSystemId = mp.OperatingSystem.MyOperatingSystemId
+                              MyOperatingSystemId = mp.OperatingSystem.MyOperatingSystemId,
+                              ManufacturerId = mp.Manufacturer.ManufacturerId
                           });
 
             return await result.ToListAsync();

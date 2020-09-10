@@ -12,5 +12,6 @@ namespace MobileStore.Domain.Interfaces
         Task<IEnumerable<MobilePhone>> GetMobilePhones();
         Task<IEnumerable<MobilePhone>> GetMobilePhonesFromSearchFilter(MobilePhoneFilterSearchResource resource);
         Task<MobilePhone> GetMobileAsync(int id);
+        MobilePhone AddMobilePhone(MobilePhone mobile);
     }
 }

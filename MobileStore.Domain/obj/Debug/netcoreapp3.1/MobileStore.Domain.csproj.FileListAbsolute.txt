@@ -10,3 +10,15 @@ C:\Users\Aron\Desktop\MobileStore\MobileStore.Domain\obj\Debug\netcoreapp3.1\Mob
 C:\Users\Aron\Desktop\MobileStore\MobileStore.Domain\obj\Debug\netcoreapp3.1\MobileStore.Domain.dll
 C:\Users\Aron\Desktop\MobileStore\MobileStore.Domain\obj\Debug\netcoreapp3.1\MobileStore.Domain.pdb
 C:\Users\Aron\Desktop\MobileStore\MobileStore.Domain\obj\Debug\netcoreapp3.1\MobileStore.Domain.genruntimeconfig.cache
+C:\Users\Nodar\Desktop\Files\Projects\New folder\MobileStore.Domain\bin\Debug\netcoreapp3.1\MobileStore.Domain.deps.json
+C:\Users\Nodar\Desktop\Files\Projects\New folder\MobileStore.Domain\bin\Debug\netcoreapp3.1\MobileStore.Domain.runtimeconfig.json
+C:\Users\Nodar\Desktop\Files\Projects\New folder\MobileStore.Domain\bin\Debug\netcoreapp3.1\MobileStore.Domain.runtimeconfig.dev.json
+C:\Users\Nodar\Desktop\Files\Projects\New folder\MobileStore.Domain\bin\Debug\netcoreapp3.1\MobileStore.Domain.dll
+C:\Users\Nodar\Desktop\Files\Projects\New folder\MobileStore.Domain\bin\Debug\netcoreapp3.1\MobileStore.Domain.pdb
+C:\Users\Nodar\Desktop\Files\Projects\New folder\MobileStore.Domain\obj\Debug\netcoreapp3.1\MobileStore.Domain.csprojAssemblyReference.cache
+C:\Users\Nodar\Desktop\Files\Projects\New folder\MobileStore.Domain\obj\Debug\netcoreapp3.1\MobileStore.Domain.AssemblyInfoInputs.cache
+C:\Users\Nodar\Desktop\Files\Projects\New folder\MobileStore.Domain\obj\Debug\netcoreapp3.1\MobileStore.Domain.AssemblyInfo.cs
+C:\Users\Nodar\Desktop\Files\Projects\New folder\MobileStore.Domain\obj\Debug\netcoreapp3.1\MobileStore.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Nodar\Desktop\Files\Projects\New folder\MobileStore.Domain\obj\Debug\netcoreapp3.1\MobileStore.Domain.dll
+C:\Users\Nodar\Desktop\Files\Projects\New folder\MobileStore.Domain\obj\Debug\netcoreapp3.1\MobileStore.Domain.pdb
+C:\Users\Nodar\Desktop\Files\Projects\New folder\MobileStore.Domain\obj\Debug\netcoreapp3.1\MobileStore.Domain.genruntimeconfig.cache
