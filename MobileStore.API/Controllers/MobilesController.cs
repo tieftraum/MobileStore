@@ -67,7 +67,7 @@ namespace MobileStore.API.Controllers
         }
 
         [HttpPost]
-        public async Task<IActionResult> AddMobile([FromBody] MobilePhoneResource resource)
+        public  IActionResult AddMobile([FromBody] MobilePhoneResource resource)
         {
             if (resource==null)
             {

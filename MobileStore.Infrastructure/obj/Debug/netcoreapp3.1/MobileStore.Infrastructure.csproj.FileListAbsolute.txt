@@ -22,3 +22,15 @@ C:\Users\Nodar\Desktop\Files\Projects\New folder\MobileStore.Infrastructure\obj\
 C:\Users\Nodar\Desktop\Files\Projects\New folder\MobileStore.Infrastructure\obj\Debug\netcoreapp3.1\MobileStore.Infrastructure.csproj.CopyComplete
 C:\Users\Nodar\Desktop\Files\Projects\New folder\MobileStore.Infrastructure\obj\Debug\netcoreapp3.1\MobileStore.Infrastructure.dll
 C:\Users\Nodar\Desktop\Files\Projects\New folder\MobileStore.Infrastructure\obj\Debug\netcoreapp3.1\MobileStore.Infrastructure.pdb
+C:\Users\Nodar\Desktop\Files\Projects\MobileStore\MobileStore.Infrastructure\bin\Debug\netcoreapp3.1\MobileStore.Infrastructure.deps.json
+C:\Users\Nodar\Desktop\Files\Projects\MobileStore\MobileStore.Infrastructure\bin\Debug\netcoreapp3.1\MobileStore.Infrastructure.dll
+C:\Users\Nodar\Desktop\Files\Projects\MobileStore\MobileStore.Infrastructure\bin\Debug\netcoreapp3.1\MobileStore.Infrastructure.pdb
+C:\Users\Nodar\Desktop\Files\Projects\MobileStore\MobileStore.Infrastructure\bin\Debug\netcoreapp3.1\MobileStore.Domain.dll
+C:\Users\Nodar\Desktop\Files\Projects\MobileStore\MobileStore.Infrastructure\bin\Debug\netcoreapp3.1\MobileStore.Domain.pdb
+C:\Users\Nodar\Desktop\Files\Projects\MobileStore\MobileStore.Infrastructure\obj\Debug\netcoreapp3.1\MobileStore.Infrastructure.csprojAssemblyReference.cache
+C:\Users\Nodar\Desktop\Files\Projects\MobileStore\MobileStore.Infrastructure\obj\Debug\netcoreapp3.1\MobileStore.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Nodar\Desktop\Files\Projects\MobileStore\MobileStore.Infrastructure\obj\Debug\netcoreapp3.1\MobileStore.Infrastructure.AssemblyInfo.cs
+C:\Users\Nodar\Desktop\Files\Projects\MobileStore\MobileStore.Infrastructure\obj\Debug\netcoreapp3.1\MobileStore.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Nodar\Desktop\Files\Projects\MobileStore\MobileStore.Infrastructure\obj\Debug\netcoreapp3.1\MobileStore.Infrastructure.csproj.CopyComplete
+C:\Users\Nodar\Desktop\Files\Projects\MobileStore\MobileStore.Infrastructure\obj\Debug\netcoreapp3.1\MobileStore.Infrastructure.dll
+C:\Users\Nodar\Desktop\Files\Projects\MobileStore\MobileStore.Infrastructure\obj\Debug\netcoreapp3.1\MobileStore.Infrastructure.pdb
